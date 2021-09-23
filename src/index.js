@@ -110,14 +110,14 @@ client.on("message", async message => {
 const help = {
     title: "Commands",
     description: `
-Search anime: !a or !anime <anime title>
-Search manga: !m or !manga <manga title>
-Search character: !c or !character <character name>
-Search staff: !p or !person or !staff <staff name>
-Search studio: !s or !studio <studio name>
-Search user: !u or !user <user name>
+Search anime: +A or +Anime <anime title>
+Search manga: +m or +Manga <manga title>
+Search character: +c or +Character <character name>
+Search staff: +p or +Person or +Staff <staff name>
+Search studio: +S or +Studio <studio name>
+Search user: +U or +User <user name>
 
-GitHub: https://github.com/AniList/AniList-Discord-Bot`
+Our website : https://xr7-bots.glitch.me`
 };
 
 client.login(process.env.TOKEN);
